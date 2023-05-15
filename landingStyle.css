@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header
+{
+    padding: 50px;
+    background-color: crimson;
+}
+
+header > a 
+{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 20px;
+}
+
+header > a:hover
+{
+    color: black;
+    font-weight: 100;
+}
+
+section
+{
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+    background-image: linear-gradient(to top, crimson, rgb(229, 180, 45));
+    text-align: center;
+    padding: 20px;
+}
+
+section > h1
+{
+font-size: 30PX;
+}
+
+section > img
+{
+    padding: 34px;
+    height: 700px;
+    width:700px;
+}
+
+footer
+{
+    width: 1040px;
+    margin: auto;
+    background-image: linear-gradient(to bottom,  crimson, rgb(229, 180, 45));
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+footer > a
+{
+     color: whitesmoke;
+     text-decoration: none;
+     padding: 20px;
+     margin: 20px;
+}
+
+footer > a:hover
+{
+    color: black;
+    font-weight: 100;
+}
